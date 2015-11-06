@@ -25,6 +25,8 @@ Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "Tailspin.Models", "Tailspin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tailspin.Web", "Tailspin.WebUpgraded\Tailspin.Web.csproj", "{58610F2B-D2AA-4C77-85F2-4304F5D4FF12}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tailspin.API", "Tailspin.API\Tailspin.API.csproj", "{894681DD-7771-45C9-9328-2EC6C430BC6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -119,39 +121,21 @@ Global
 		{58610F2B-D2AA-4C77-85F2-4304F5D4FF12}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{58610F2B-D2AA-4C77-85F2-4304F5D4FF12}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{58610F2B-D2AA-4C77-85F2-4304F5D4FF12}.Release|x86.ActiveCfg = Release|Any CPU
+		{894681DD-7771-45C9-9328-2EC6C430BC6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{894681DD-7771-45C9-9328-2EC6C430BC6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{894681DD-7771-45C9-9328-2EC6C430BC6B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{894681DD-7771-45C9-9328-2EC6C430BC6B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{894681DD-7771-45C9-9328-2EC6C430BC6B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{894681DD-7771-45C9-9328-2EC6C430BC6B}.Debug|x86.Build.0 = Debug|Any CPU
+		{894681DD-7771-45C9-9328-2EC6C430BC6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{894681DD-7771-45C9-9328-2EC6C430BC6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{894681DD-7771-45C9-9328-2EC6C430BC6B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{894681DD-7771-45C9-9328-2EC6C430BC6B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{894681DD-7771-45C9-9328-2EC6C430BC6B}.Release|x86.ActiveCfg = Release|Any CPU
+		{894681DD-7771-45C9-9328-2EC6C430BC6B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 9
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://tfs/tfs/ql
-		SccProjectUniqueName0 = Tailspin.Schema\\Tailspin.Schema.sqlproj
-		SccProjectName0 = Tailspin.Schema
-		SccLocalPath0 = Tailspin.Schema
-		SccProjectUniqueName1 = Tailspin.Infrastructure\\Tailspin.Infrastructure.csproj
-		SccProjectName1 = Tailspin.Infrastructure
-		SccLocalPath1 = Tailspin.Infrastructure
-		SccProjectUniqueName2 = Tailspin.Model\\Tailspin.Model.csproj
-		SccProjectName2 = Tailspin.Model
-		SccLocalPath2 = Tailspin.Model
-		SccProjectUniqueName3 = Tailspin.SimpleSqlRepository\\Tailspin.SimpleSqlRepository.csproj
-		SccProjectName3 = Tailspin.SimpleSqlRepository
-		SccLocalPath3 = Tailspin.SimpleSqlRepository
-		SccProjectUniqueName4 = Tailspin.Test.Model\\Tailspin.Test.Model.csproj
-		SccProjectName4 = Tailspin.Test.Model
-		SccLocalPath4 = Tailspin.Test.Model
-		SccProjectUniqueName5 = Tailspin.Admin.App\\Tailspin.Admin.App.csproj
-		SccProjectName5 = Tailspin.Admin.App
-		SccLocalPath5 = Tailspin.Admin.App
-		SccProjectUniqueName6 = Tailspin.Models\\Tailspin.Models.modelproj
-		SccProjectName6 = Tailspin.Models
-		SccLocalPath6 = Tailspin.Models
-		SccProjectUniqueName7 = Tailspin.WebUpgraded\\Tailspin.Web.csproj
-		SccProjectName7 = Tailspin.WebUpgraded
-		SccLocalPath7 = Tailspin.WebUpgraded
-		SccLocalPath8 = .
 	EndGlobalSection
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = TailspinToys.vsmdi
