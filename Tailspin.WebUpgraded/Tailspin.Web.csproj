@@ -288,15 +288,15 @@
     <Folder Include="App_Start\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Web.Beta.config">
+    <Content Include="Web.Beta.config">
       <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Dev.config">
+    </Content>
+    <Content Include="Web.Dev.config">
       <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Test.config">
+    </Content>
+    <Content Include="Web.Test.config">
       <DependentUpon>Web.config</DependentUpon>
-    </None>
+    </Content>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
