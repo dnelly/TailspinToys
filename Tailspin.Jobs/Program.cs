@@ -46,7 +46,7 @@ namespace Tailspin.Jobs
             _timer.Elapsed += (sender, eventArgs) => Console.WriteLine("It is {0} and all is well", DateTime.Now);
         }
         public void Start() {
-            We
+            
             _timer.Start(); }
         public void Stop() { _timer.Stop(); }
     }
